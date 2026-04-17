@@ -1,0 +1,239 @@
+.presentation{
+    margin-top: 5%;
+    font-size: 270%;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.container-fluid{
+    background-color: black;
+    position:absolute;
+    padding-top: 2.5%;
+}
+.background_img{
+    background-image: url("C:\Users\vinil\Desktop\teste-imagem.jpg");
+    font-size: 70%;
+    text-align: center;
+    background-position: center;
+    position: relative;
+    padding-top: 5%;
+    
+   
+}
+
+.text_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    font-size: small;
+}
+
+.navbar{
+    background-color: transparent !important;
+    
+}
+
+body{
+    background-color: #292929;
+}
+
+.navbar-brand{
+    color: white;
+    padding: 1%;
+    background-color: transparent !important;
+   
+    
+}
+
+.nav-link-active{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    padding: 1.4%;
+    
+}
+
+.nav-item{
+    padding: 5%;
+}
+
+.a{
+    text-decoration: none;
+}
+
+
+
+.navbar-toggler{
+    background-color: #333333;
+     border-radius: 10%;
+
+}
+
+.body{
+    background-image: ('C:/Users/vinil/Desktop/teste-imagem.jpg');
+    background-repeat: no-repeat;
+
+}
+
+.testing{
+    background-color: transparent !important;
+    text-align: justify;
+    margin-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: large;
+    
+}
+
+.presentation-projects{
+    margin-bottom: 3%;
+    margin-top: 2%;
+    font-size: 270%;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-me{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 222%;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.me{
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+    margin-top: 1%;
+
+}
+
+.text-about{
+    color: white;
+    vertical-align: baseline;
+    text-align: justify;
+}
+
+.text-about-edit{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding-left: 5%;  
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+@media (max-width: 768px) {
+  .text-about-edit {
+    flex-direction: column;
+    text-align: justify;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .me {
+    width: 200px;
+  }
+}
+
+.used-techs{
+    padding-top: 1%;
+    padding-left: 5%;
+}
+
+.my-projects{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    align-content: center;
+    color: transparent !important;  
+
+}
+
+.cards-projects{
+    color: transparent;
+    text-align: justify;
+    display: flex;
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+    padding-bottom: 7%;
+    
+}
+.card-content{
+    background-color: #111 !important;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    flex: 1;
+    
+}
+
+@media (max-width: 768px) {
+  .cards-projects {
+    flex-direction: column;
+  }
+}
+
+.git-links{
+    text-decoration: none !important;
+    color: white;
+    font-weight: bold;
+}
+
+
+.footer {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    padding-left: 10%;
+    text-decoration: none ;
+}
+
+.footer-grid{
+    
+    text-decoration: none ;
+    font-weight: bold;
+
+}
+
+.footer-item{
+    align-items: right;
+    
+}
+
+.contact-icon{
+    max-width: 50px ;
+    max-height: auto;
+}
+
+.redirectlink-footer{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    
+}

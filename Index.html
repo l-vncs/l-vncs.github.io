@@ -1,11 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quem Sou Eu</title>
-</head>
-<body>
-    <p>esse aqui é um teste do github pages</p>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Luigi Vinícius Souza</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="nav-link-active" href="Index.html">Luigi Vinicius Souza</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link-active" aria-current="page" href="Index.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-active" href="#">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-active" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    <h1 class ="presentation">Olá! me chamo Luigi e este é meu site</h1>
+
+    <h1 class ="about-me"> Quem sou eu?</h1>
+
+      <div class="text-about-edit">
+
+        <img class="me" src="Images/foto_sobre.jpeg" alt="ERRO!"> 
+
+        <div class="text-content">
+          <p class="testing">  
+            <span class="text-about">Meu nome é Luigi Vinícius, sou técnico em informática desde 2024 e graduando em análise e desenvolvimento de sistemas (previsto para 2027).
+            Sempre tive curiosidade pela tecnologia, desde pequeno eu já gostava de ficar no computador e nos consoles jogando e explorando o mundo tech.</span>
+          </p>
+          
+          <p class="testing">
+            <span class="text-about">Comecei a me aprofundar nessa área por volta por volta dos 14 anos, onde conheci a programação. Aprendi a fazer meus primeiros sites,  ainda em um nível bem iniciante, porém não parei por aí. Atualmente estudo tanto o back-end, quanto o front-end e estou fazendo projetos para meu portfolio. </span>
+            <span class="text-about"> Minha experiência profissional foi no âmbito do desenvolvimento web, em 2024 fiz parte da criação de um site que consistia em uma agenda virtual para escolas, era uma forma de acabar com cronogramas impressos, manter os alunos atualizados e reunir todas as informações em um único lugar.  </span>
+            <span class="text-about"> Durante esse processo de criação utilizamos diversas tecnologias como:</span>  
+          </p>
+          <div class="used-techs">
+            <li class="text-about">HTML;</li>
+            <li class="text-about">CSS;</li>
+            <li class="text-about">JavaScript;</li>
+            <li class="text-about">PHP;</li>
+            <li class="text-about">SQL.</li>
+            
+          </div>
+            
+        </div>
+      </div>
+
+
+        <h1 class="presentation-projects">Meus projetos</h1>
+
+      <div class="cards-projects">
+        <div class="card-content">
+          <h3>Calculadora de folha salarial  (Java)</h3>
+          <p>O sistema consiste em uma tela com disponibilidade para diferentes bases salariais, podendo realizar o cálculo de salários comissionados e com bonificações. Ao final dos cadastros das informações de cada funcionário é possível imprimir uma lista com todos os nomes cadastrados.</p>
+          <p>Para maiores informações este projeto possui o código e uma breve documentação disponível em meu GitHub: <a class="git-links" href="https://github.com/l-vncs/calculadora_salario">github.com/l-vncs/calculadora_salario</a>
+          </p>
+        </div>
+
+        <div class="card-content">
+          <h3>Sistema de controle financeiro (Java)</h3>
+          <p> Este sistema em Java tem utilidade em controle de receitas e despesas, é possível calcular o saldo baseado nas informações cadastradas, após o término dos cadastros é possível listar o saldo. Quando o sistema recebe as saídas todas as informações são direcionadas para o banco de dados com informações como: Tipo de gasto, data e valor.</p>
+          <p>Para maiores informações este projeto possui o código e uma breve documentação disponível em meu GitHub: <a class="git-links" href="https://github.com/l-vncs/financial-manager-java">github.com/l-vncs/financial-manager-java</a></p> 
+          </p>
+        </div>
+
+        <div class="card-content">
+          <h3>Em breve...</h3>
+          <p>Maiores informações em breve...</p>
+          
+        </div>
+      </div>
+
+    <footer class="footer">
+      <div class="footer-grid">
+          <span><a class ="redirectlink-footer" href="Index.html">Luigi Vinícius Souza</a></span>
+      </div>
+
+      <div class="footer-item">
+          <span>Contato:</span>
+          <span> Telefone: (12) 98875-3064</span><br>
+          <span> E-mail: luigi.contato.souza@gmail.com</span><br>
+          <span><a  href="https://www.linkedin.com/in/luigi-vin%C3%ADcius-souza-9b9949342/"><img class ="contact-icon" src="Images/linkedin-app-icon.png" alt="Linkedin"></a></span>
+          <span><a  href="https://github.com/l-vncs"><img class ="contact-icon" src="Images/github-icon.png" alt="GitHub"></a></span>
+
+      </div>
+    </footer>
 </body>
-</html>
+</html> 
