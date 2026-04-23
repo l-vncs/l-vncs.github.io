@@ -14,21 +14,28 @@
     
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="nav-link-active" href="Index.html">Luigi Vinicius Souza</a>
+        <a class="nav-link-active" href="Index.html">Luigi Vinicius</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link-active" aria-current="page" href="Index.html">Sobre</a>
+              <a class="nav-link-active" aria-current="page" href="#who-am-i">Sobre</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link-active" href="#techs">Tecnologias</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link-active" href="#projectslink">Projetos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link-active" href="#">Projetos</a>
+              <a class="nav-link-active" href="#footer-contact">Contato</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link-active" href="#">Contato</a>
-            </li>
+
+            
           </ul>
         </div>
       </div>
@@ -36,6 +43,8 @@
     
 
     <h1 class ="presentation">Olá! me chamo Luigi e este é meu site</h1>
+
+  <section id="who-am-i">
 
     <h1 class ="about-me"> Quem sou eu?</h1>
 
@@ -45,42 +54,67 @@
 
         <div class="text-content">
           <p class="testing">  
-            <span class="text-about">Meu nome é Luigi Vinícius, sou técnico em informática desde 2024 e graduando em análise e desenvolvimento de sistemas (previsto para 2027).
-            Sempre tive curiosidade pela tecnologia, desde pequeno eu já gostava de ficar no computador e nos consoles jogando e explorando o mundo tech.</span>
+            <span class="text-about">Meu nome é Luigi Vinicius e sou um desenvolvedor em formação.</span>
           </p>
-          
-          <p class="testing">
-            <span class="text-about">Comecei a me aprofundar nessa área por volta por volta dos 14 anos, onde conheci a programação. Aprendi a fazer meus primeiros sites,  ainda em um nível bem iniciante, porém não parei por aí. Atualmente estudo tanto o back-end, quanto o front-end e estou fazendo projetos para meu portfolio. </span>
-            <span class="text-about"> Minha experiência profissional foi no âmbito do desenvolvimento web, em 2024 fiz parte da criação de um site que consistia em uma agenda virtual para escolas, era uma forma de acabar com cronogramas impressos, manter os alunos atualizados e reunir todas as informações em um único lugar.  </span>
-            <span class="text-about"> Durante esse processo de criação utilizamos diversas tecnologias como:</span>  
-          </p>
-          <div class="used-techs">
-            <li class="text-about">HTML;</li>
-            <li class="text-about">CSS;</li>
-            <li class="text-about">JavaScript;</li>
-            <li class="text-about">PHP;</li>
-            <li class="text-about">SQL.</li>
-            
+
+          <div class="graduation">
+            <ul>
+              <li class="text-graduation">→ Técnico em informática desde 2024;</li>
+              <li class="text-graduation">→ Graduando em Análise e Desenvolvimento de Sistemas (2027);</li>
+              <li class="text-graduation">→ Experiência prática em webdesign;</li>
+              <li class="text-graduation">→ Atualmente estudando back-end (Java).</li>
+            </ul>
           </div>
             
         </div>
       </div>
+    </section>
+
+  <section id="techs">
+    <h1 class ="about-me"> Tecnologias </h1>
+
+    <div class ="skills-container">
+      <div class="skills-grid">
+          <h3>Java</h3>
+          <p>POO, lógica e projetos acadêmicos</p>
+      </div>
+
+      <div class="skills-grid">
+          <h3>Front-end</h3>
+          <p>HTML, CSS, responsividade</p>
+      </div>
+
+      <div class="skills-grid">  
+        <h3>Banco de Dados</h3>
+        <p>Integração de SQL com back-end e front-end, Create, Read, Update, Delete (CRUD).</p>
+      </div>
+
+      <div class="skills-grid">
+        <h3>Git</h3>
+        <p>Git bash, versionamento de código, pull, push, commits.</p>
+      </div>
 
 
+    </div>
+  </section>
+
+    <section id="projectslink">
         <h1 class="presentation-projects">Meus projetos</h1>
+    </section>
 
       <div class="cards-projects">
         <div class="card-content">
-          <h3>Calculadora de folha salarial  (Java)</h3>
-          <p>O sistema consiste em uma tela com disponibilidade para diferentes bases salariais, podendo realizar o cálculo de salários comissionados e com bonificações. Ao final dos cadastros das informações de cada funcionário é possível imprimir uma lista com todos os nomes cadastrados.</p>
-          <p>Para maiores informações este projeto possui o código e uma breve documentação disponível em meu GitHub: <a class="git-links" href="https://github.com/l-vncs/calculadora_salario">github.com/l-vncs/calculadora_salario</a>
-          </p>
+          <h3>Calculadora de folha salarial</h3>
+          <p>Sistema de cálculo de folha salarial que permite calcular e cadastrar diferentes tipos de salário com base em produção e comissão.</p>
+          <p>Java/POO/Console;</p>
+          <p>Código e breve documentação disponível em meu GitHub: <a class="git-links" href="https://github.com/l-vncs/calculadora_salario">github.com/l-vncs/calculadora_salario</a>.</p>
         </div>
 
         <div class="card-content">
-          <h3>Sistema de controle financeiro (Java)</h3>
-          <p> Este sistema em Java tem utilidade em controle de receitas e despesas, é possível calcular o saldo baseado nas informações cadastradas, após o término dos cadastros é possível listar o saldo. Quando o sistema recebe as saídas todas as informações são direcionadas para o banco de dados com informações como: Tipo de gasto, data e valor.</p>
-          <p>Para maiores informações este projeto possui o código e uma breve documentação disponível em meu GitHub: <a class="git-links" href="https://github.com/l-vncs/financial-manager-java">github.com/l-vncs/financial-manager-java</a></p> 
+          <h3>Sistema de controle financeiro</h3>
+          <p> Neste sistema, o usuário cadastra suas receitas e despesas e salva tudo em um banco de dados, permitindo maior controle de finanças</p>
+          <p>Java/SQL;</p>
+          <p> Código e breve documentação disponível em meu GitHub: <a class="git-links" href="https://github.com/l-vncs/financial-manager-java">github.com/l-vncs/financial-manager-java</a>.</p> 
           </p>
         </div>
 
@@ -90,7 +124,9 @@
           
         </div>
       </div>
-
+      
+  <section id="footer-contact">
+    </section>
     <footer class="footer">
       <div class="footer-grid">
           <span><a class ="redirectlink-footer" href="Index.html">Luigi Vinícius Souza</a></span>
@@ -100,10 +136,12 @@
           <span>Contato:</span>
           <span> Telefone: (12) 98875-3064</span><br>
           <span> E-mail: luigi.contato.souza@gmail.com</span><br>
-          <span><a  href="https://www.linkedin.com/in/luigi-vin%C3%ADcius-souza-9b9949342/"><img class ="contact-icon" src="Images/linkedin-app-icon.png" alt="Linkedin"></a></span>
+          <span><a  href="https://www.linkedin.com/in/luigi-vin%C3%ADcius-souza-9b9949342/"><img class ="contact-icon" src="Images/linkedin-icon.png" alt="Linkedin"></a></span>
           <span><a  href="https://github.com/l-vncs"><img class ="contact-icon" src="Images/github-icon.png" alt="GitHub"></a></span>
 
       </div>
     </footer>
+  
+
 </body>
 </html> 
